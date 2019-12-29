@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../slick.css">
+		<style type="text/css">
+			.slick-slide-thing {
+				height: 300px;
+				background-color: #FF0;
+				margin: 20px;
+			}
+			.slick-slide-thing.s1 {
+				width: 400px
+			}
+			.slick-slide-thing.s2 {
+				width: 200px;
+			}
+			.slick-slide-thing.s3 {
+				width: 100px;
+			}
+			#slick-container2 {
+				margin-top: 100px;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+		<div id="slick-container1">
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+		</div>
+		
+		<div id="slick-container2">
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+			<div><div class="slick-slide-thing s2"></div></div>
+			<div><div class="slick-slide-thing s3"></div></div>
+			<div><div class="slick-slide-thing s1"></div></div>
+		</div>
+		
+		<script type="text/javascript" src="../jquery.min.js"></script>
+		<script type="text/javascript" src="../slick.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#slick-container1").slick({
+					variableWidth: true,
+					arrows: false,
+					autoplay: true,
+					autoplaySpeed: 0,
+					cssEase: 'linear',
+					speed: 2000,
+					variableSpeed: true,
+				});
+				$("#slick-container2").slick({
+					variableWidth: true,
+					arrows: false,
+					autoplay: true,
+					autoplaySpeed: 0,
+					cssEase: 'linear',
+					speed: 2000,
+					variableSpeed: false,
+				});
+			});
+				
+		</script>
+	</body>
+	
+	
+</html>

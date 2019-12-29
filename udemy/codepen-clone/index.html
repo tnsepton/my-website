@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CodePen Clone</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<div class="input-container">
+		<div class="html-container">
+			<textarea id="html-input"></textarea>
+		</div>
+	</div>
+	
+	<div class="iframe-container">
+		<iframe src="html-content.html"></iframe>
+	</div>
+	
+	<script type="text/javascript">
+		
+		var running = false;
+		
+		document.getElementById('html-input').addEventListener('input', updateIframe);
+		
+		function updateIframe(e) {
+			if(running == false) {
+				running = true;
+				setTimeout(function() {
+					console.log('working');
+					running = false;
+				}, 3000);
+			} else {
+				return
+			}
+		}
+		
+	</script>
+	
+</body>
+</html>

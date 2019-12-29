@@ -1,0 +1,37 @@
+@keyframes slideOutLeft {
+    0% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+}
+
+.slideOutLeft {
+    animation-name: slideOutLeft;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(10%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.slideInLeft {
+    animation-name: slideInLeft;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* HTML LIST CREATOR */
+body {
+	background-color: #000;
+}
+
+#copy-button {
+	display: none;
+	width: 600px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+#list-input {
+	display: block;
+	width: 600px;
+	height: 600px;
+	overflow: auto;
+	margin: 10px auto;
+}
+
+#submit-button {
+	display: block;
+	width: 600px;
+	height: 200px;
+	margin: 10px auto;
+	font-size: 2em;
+}
+
+/* GALLERY SETUP */
+div#gallery-instructions {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+}
+
+#gallery-instructions p {
+	color: #fff;
+	max-width: 50%;
+	margin: 10px auto;
+}
+
+#hide-instructions {
+	font-size: 1.2em;
+}
+
+div.input-fields {
+	width: 40%;
+	padding: 25px;
+	float: left;
+}
+
+label {
+	color: #fff;
+	display: block;
+}
+
+label:not(:first-child) {
+	margin-top: 30px;
+}
+
+input {
+	display: block;
+}
+
+button#gallery-submit-button {
+	width: 50%;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px;
+}
+
+div.output {
+	width: 40%;
+	float: left;
+	padding: 25px;
+}
+
+#gallery-output {
+	width: 100%;
+	height: 800px;
+}
+
+.center {
+	text-align: center;
+}
+
+#gallery-copy-button {
+	font-size: 1.2em;
+}
